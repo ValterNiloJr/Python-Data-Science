@@ -1,1 +1,1 @@
-# python-logic-exercises
+# python-exercises
