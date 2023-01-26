@@ -1,30 +1,30 @@
 #-----------------------------------------------------------------------------------------------------------------------------------#
 # 1. Crie um algoritmo que imprime uma lista de números inteiros de 1 a 50.
 
-def print_int_nums():
-    list_nums = [num for num in range(1, 51)]
-    print(list_nums)
-    for num in list_nums:
+def imprime_int():
+    nums = [num for num in range(1, 51)]
+    print(nums)
+    for num in nums:
         print(num)
 
 
-print_int_nums()
+imprime_int()
 
 #-----------------------------------------------------------------------------------------------------------------------------------#
 # 2. Crie um algoritmo que imprime uma lista de números inteiros palindromos de 1 a 121.
 
 
-def print_palindromes_nums():
-    list_nums = [num for num in range(1, 122)]
-    list_palindromes_nums = []
-    for num in list_nums:
+def imprime_palindromos():
+    nums = [num for num in range(1, 122)]
+    palindromos = []
+    for num in nums:
         if str(num) == str(num)[::-1]:
-            list_palindromes_nums.append(num)
+            palindromos.append(num)
 
-    print(list_palindromes_nums)
+    print(palindromos)
 
 
-print_palindromes_nums()
+imprime_palindromos()
 
 #-----------------------------------------------------------------------------------------------------------------------------------#
 # 3. Crie um algoritmo que dado um dicionario de 5 pacientes contendo peso e altura, calcula e retorna (adiciona) o IMC do paciente
@@ -87,9 +87,9 @@ def mmc(num1, num2):
     div_num2 = set()
 
     for divisor in range(1, max_num+1):
-        if num1 % divisor == 0 and divisor != 1:
+        if (num1 % divisor == 0) and (divisor != 1):
             div_num1.add(divisor)
-        if num2 % divisor == 0 and divisor != 1:
+        if (num2 % divisor == 0) and (divisor != 1):
             div_num2.add(divisor)
 
     div_comum = div_num1.intersection(div_num2)
