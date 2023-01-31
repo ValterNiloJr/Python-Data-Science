@@ -9,7 +9,6 @@
 #    remova algum item pela posição
 #    ordene a lista em ordem alfabética
 
-import random as rd
 top = ['Interestelar', 'Diário de uma paixão',
        'Blacklist', 'La Casa de Papel', 'One Piece']
 
@@ -66,6 +65,7 @@ for item in compras:
 #       import random
 #       random.randint(inicio, fim)
 
+import random as rd
 
 conj = [rd.randint(1, 26) for num in range(50)]
 
