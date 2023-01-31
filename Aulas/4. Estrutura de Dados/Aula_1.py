@@ -87,13 +87,13 @@ def mmc(num1, num2):
     div_num2 = set()
 
     for divisor in range(1, max_num+1):
-        if (num1 % divisor == 0) and (divisor != 1):
+        if (num1 % divisor == 0):
             div_num1.add(divisor)
-        if (num2 % divisor == 0) and (divisor != 1):
+        if (num2 % divisor == 0):
             div_num2.add(divisor)
 
     div_comum = div_num1.intersection(div_num2)
-
+    div_comum.pop()
     return min(div_comum)
 
 
