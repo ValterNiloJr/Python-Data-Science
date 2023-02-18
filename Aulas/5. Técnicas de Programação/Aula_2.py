@@ -2,7 +2,7 @@
 # 3. Considere um sistema simples de notas de uma escola. Neste sistema, para cada aluno, há um registro de nome e uma nota. 
 #    Crie uma lista que contenha os nomes de pelo menos 5 alunos e um array numpy com suas respectivas notas. O sistema de exibir 
 #    o nome e nota dos alunos com nota maior ou igual a 7.
-'''
+
 import numpy as np
 
 alunos = ['Valter', 'Byanca', 'Lucas', 'Eduardo', 'Vivian']
@@ -56,7 +56,7 @@ y = b*np.sin(t)
 plt.axis([-5, 5, -5, 5])
 plt.plot(x, y)
 plt.show()
-'''
+
 #-----------------------------------------------------------------------------------------------------------------------------------#
 # Desafio: Utilize o trecho de código dado e um arquivo de áudio no formato wav para ler, visualizar e criar edições desse arquivo 
 #          de áudio. Voce pode remover partes, criar repetições, trocar partes de lugar ou alterar valores.
