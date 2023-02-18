@@ -1,17 +1,5 @@
 #-----------------------------------------------------------------------------------------------------------------------------------#
-# 1. Adicionando valores em um array
-
-import numpy as np
-
-array = np.array([])
-
-for i in range(10):
-    array = np.append(array, i)
-    
-array
-
-#-----------------------------------------------------------------------------------------------------------------------------------#
-# 2. Uma das primeiras obras muldialmente publicadas de Dan Brown, autor do famoso Código Da Vinci, é o livro Fortaleza Digital. 
+# 1. Uma das primeiras obras muldialmente publicadas de Dan Brown, autor do famoso Código Da Vinci, é o livro Fortaleza Digital. 
 #    Neste livro, a personagem principal, Suzan Fletcher, é uma criptógrafa da NSA (National Security Agency). No livro, a personagem 
 #    descreve como criar uma criptografia de forma simples :
 
@@ -53,12 +41,12 @@ string_descriptografada = descriptografar(array_criptografado)
 print(string_descriptografada)
 
 #-----------------------------------------------------------------------------------------------------------------------------------#
-# 3. Modificar uma imagem para sua visualização em camadas individuais (R, G, B) -> (Red, Green, Blue) -> (Vermelho, Verde, Azul)
+# 2. Modificar uma imagem para sua visualização em camadas individuais (R, G, B) -> (Red, Green, Blue) -> (Vermelho, Verde, Azul)
 
 from matplotlib import pyplot as plt
 from matplotlib import image as img
 
-image = img.imread('./Aulas/5. Técnicas de Programação/Images/python.png')
+image = img.imread('./Aulas/5. Técnicas de Programação/Imagens/python.png')
 
 plt.figure(figsize=(10,5))
 
